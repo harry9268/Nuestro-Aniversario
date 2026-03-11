@@ -345,3 +345,60 @@ p {
     font-size: 40px;
     animation: float 4s ease-in-out infinite reverse;
 }
+@media (max-width: 768px) {
+
+    /* Ajuste del libro */
+    .book {
+        width: 95%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .paper {
+        width: 100%;
+        height: auto;
+    }
+
+    .front, .back {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .page-main-content {
+        padding: 10px;
+    }
+
+    /* Tipografía más pequeña para móvil */
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.5rem; }
+    p { font-size: 0.95rem; margin-bottom: 30px; }
+
+    /* Imágenes fluidas */
+    .cover-image, .page-image {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    /* Botones más pequeños y ajustados */
+    .next-btn, .prev-btn {
+        bottom: 10px;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 90%;
+        max-width: 360px;
+        padding: 20px;
+        border-radius: 15px;
+        transform: scale(0.9) translateY(5px);
+    }
+    .modal-content h2 { font-size: 1.6rem; }
+    .modal-content p { font-size: 0.95rem; }
+    .modal-content input { width: 90%; padding: 10px; font-size: 1rem; }
+    .lock-icon { font-size: 45px; }
+}
