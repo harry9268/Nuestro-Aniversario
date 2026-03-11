@@ -402,3 +402,13 @@ p {
     .modal-content input { width: 90%; padding: 10px; font-size: 1rem; }
     .lock-icon { font-size: 45px; }
 }
+
+@media (max-width: 768px) {
+    body {
+        height: auto;             /* permite que el contenido determine la altura */
+        align-items: flex-start;  /* se alinea desde arriba */
+        padding-top: 20px;        /* un pequeño margen superior */
+        overflow-x: hidden;       /* evita scroll horizontal, pero permite vertical */
+    }
+}
+
